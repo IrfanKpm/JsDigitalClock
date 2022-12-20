@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background-color: rgb(52, 46, 46);
+}
+h1{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 30px;
+    color: white;
+}
+.clock{
+    display: flex;
+    position: relative;
+}
+.clock div{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(14, 145, 189);
+    border: none;
+    outline: none;
+}
+
+.clock span{
+    color: white;
+    padding: 8px;
+    text-align: center;
+    font-size: 60px;
+}
+.text{
+    background-color: rgb(17, 82, 104);
+}
+.ampm{
+    justify-content: center;
+}
